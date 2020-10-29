@@ -31,8 +31,80 @@
 </div>
 <a class="headerButton" href="#">Get started</a>
 </header>
-<div id="slider" width="1440px" height="570px">
-	
+<div id="parentSlider">
+	<ul id="slider">
+		<li class="slide showing">
+			<video muted="">
+				<source type="video/mp4" src="videos/1.mp4">
+			</video>
+         <div>
+			 <div id="playButton1" class="videoButton buttonPlay"></div>
+			
+			
+			 <div id="pauseButton1" class="videoButton buttonPause none"> </div>
+		
+		</div>
+		</li>
+		
+		<li class="slide">
+			<video>
+				<source type="video/mp4" src="videos/2.mp4">
+			</video>
+			<div>
+			<div id="playButton2" class="videoButton buttonPlay"></div>
+			<div id="pauseButton2" class="videoButton  buttonPause none"></div>
+		    </div>
+		</li>
+		
+		<li class="slide">
+			<video>
+				<source type="video/mp4" src="videos/3.mp4">
+			</video>
+			<div>
+			<div id="playButton3" class="videoButton buttonPlay"></div>
+			<div id="pauseButton3" class="videoButton  buttonPause none"></div>
+		   </div>
+		</li>
+		
+	</ul>
+	<div id="toggleRadio">
+		<input type="radio" name="rat" value="0" checked>
+		<input type="radio" name="rat" value="1">
+		<input type="radio" name="rat" value="2">
+	</div>
+
+</div>
+<div class="sponsors">
+<ul class="sponsorItems">
+	<li class="sponsorLi"><img src="images/ajd.png"></li>
+	<li class="sponsorLi"><img src="images/Vector1.png"></li>
+	<li class="sponsorLi"><img src="images/Vector2.png"></li>
+	<li class="sponsorLi"><img src="images/Vector3.png"></li>
+	<li class="sponsorLi"><img src="images/Vector4.png"></li>
+</ul>
+</div>
+<br>
+<div class="apps">
+	<h3 class="appsText1">DEKSTOP AND MOBILE APP</h3>
+	<h1 class="appsText">Plan and manage</h1>
+	<p class="appsP">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.<br> Usu atqui laudem an, insolens gubergren similique est cu.<br> Et vel modus congue vituperata. Solum patrioque no sea.<br> Mea ex malis mollis oporteat. Eum an expetenda consequat.</p>
+	<button class="appsButton1">View video <img src="images/polygon.png"></button>
+	<button class="appsButton2">See features</button>
+	<div class="appsPhone">
+		<img src="images/rect.png">
+		<div class="phoneDisplay">
+
+	    </div>
+	    <div class="usersCount">
+	    	<div class="usersProductivity">
+	    		<h1>89%</h1>
+	    		<p>Customers who have increased their productivity</p>
+	    	</div>
+	    	<div class="usersUsing">
+	    		<h1>3123</h1>
+	    		<p>Users who have used our application</p>
+	    	</div>
+	    </div>
 </div>
 <script src="scripts/index.js"></script>
 </body>
